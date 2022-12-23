@@ -1,0 +1,14 @@
+opencv-python
+numpy
+pandas
+joblib
+torch
+torchvision
+imageio
+matplotlib
+requests
+ipython
+psutil
+pyyaml
+tqdm
+seaborn
