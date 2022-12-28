@@ -16,14 +16,21 @@ affiliation: Department of Industrial Engineering, University of La Laguna, San 
 ## Citing this work
 If using this work, please cite us.
 
+Rodriguez Valido, M.; Gomez-Cardenes, O.; Magdaleno, E. Monitoring Vehicle Pollution and Fuel Consumption Based on AI Camera System and Gas Emission Estimator Model. Sensors 2023, 23, 312. https://doi.org/10.3390/s23010312
+
 ## Description
-This code accompanies the paper "Monitoring vehicle pollution and fuel consumption based on AI camera system and gas emission estimator model". The software can be represented with the following diagram:
+This code accompanies the paper "Monitoring vehicle pollution and fuel consumption based on AI camera system and gas emission estimator model".
+
+Link to the paper: [https://www.mdpi.com/2035034](https://www.mdpi.com/2035034)
+
+The software can be represented with the following diagram:
 <p align="center">
     <img src="readme_data/software_diagram.png" alt="Sofware diagram"/>
 </p>
 
+
 ## Localization
-`yolov5` in it's nano variant is used to localize and classify the vehicles in each frame. Weights and architecture are available through the [torch hub](https://pytorch.org/hub/ultralytics_yolov5/)
+`yolov5` in its nano variant is used to localize and classify the vehicles in each frame. Weights and architecture are available through the [torch hub](https://pytorch.org/hub/ultralytics_yolov5/)
 <p align="center">
     <img src="readme_data/classifier.gif" alt="Classifier module" style="width:500px;"/>
 </p>
